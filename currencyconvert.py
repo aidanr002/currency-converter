@@ -50,7 +50,6 @@ def convert():
                 if rate == to_currency:
                     focus_rate = rates_from[rate]
             result = result * focus_rate
-            print (result)
             result = result + 0.0001
             result = round(result, 4)
             result = str(result)
